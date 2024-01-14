@@ -148,11 +148,99 @@ nav li a {
 
 /* features_section_end */
 
+/* features_section2_start */
+.features2 {
+    display: flex;
+    /* max-width: 1440px; */
+    gap: 100px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.features2-title {
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+    border-left: 5px solid #FF900E;
+    padding-left: 15px;
+}
+
+.features-para {
+    color: #727272;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 580px;
+    margin-top: 20px;
+}
+
+.box {
+    border-radius: 8px;
+    background: #FFF;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+    max-width: 580px;
+    margin-top: 20px;
+    padding: 30px 42px 30px 30px;
+}
+
+.box h2 {
+    color: #131313;
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+
+.box p {
+    color: #727272;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 514px;
+    /* padding: 30px 42px 30px 30px; */
+}
+
+.features-img{
+    position: relative;
+}
+
+.f2-img{
+    width: 80%;
+}
+
+
+.ten-years {
+    border-radius: 8px;
+    background: #FF900E;
+    width: 310px;
+    padding: 45px 1px;
+    position: absolute;
+    bottom: -75px;
+    left: -90px;
+}
+
+.ten-years h2 {
+    color: #FFF;
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+}
+
+.ten-years p {
+    color: #FFF;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 40px;
+    text-align: center;
+}
+
+
+/* features_section2_end */
+
 /* fact_section_start */
 .facts {
     max-width: 1440px;
     margin: 0, auto;
     margin-left: 171px;
+    margin-top: 120px;
 }
 
 .facts-title {
@@ -188,7 +276,7 @@ nav li a {
 }
 
 .fact-card-conteina .card-title {
-    color:  #727272;
+    color: #727272;
     font-family: Work Sans;
     font-size: 1.25rem;
     font-weight: 600;
@@ -196,6 +284,53 @@ nav li a {
 
 /* fact_section_end */
 
+/* sponsor_section_start */
+.sponsors {
+    text-align: center;
+    margin-top: 150px;
+}
+
+.sponsor-title {
+    color: #131313;
+    font-size: 2.8rem;
+    font-weight: 700;
+}
+
+.spomsor-description {
+    color: #727272;
+    font-weight: 400;
+    line-height: 26px;
+    max-width: 540px;
+    margin: 0 auto;
+}
+
+.sponsor-img {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 35px;
+}
+
+/* sponsor_section_end */
+/* Footer_style_start */
+footer {
+    border-radius: 8px;
+    background: #FFF4E7;
+    margin: 0 auto;
+    max-width: 1440px;
+    margin-top: 60px;
+}
+
+.footer-description {
+    color: #424242;
+    justify-content: center;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 400;
+    padding: 38px 410px;
+}
+
+/* Footer_style_end */
 
 /* main_style_end */
 
@@ -237,6 +372,7 @@ nav li a {
         margin-left: 20px;
         margin-right: 20px;
     }
+
     .fact-card-conteinar {
         flex-direction: column;
     }
@@ -245,6 +381,37 @@ nav li a {
         /* padding: 30px 30px; */
         margin-top: 10px;
     }
+
+    .sponsor-img {
+        flex-direction: column;
+        padding: 0 20px;
+        margin-top: 15px;
+        gap: 20px;
+    }
+
+    .sponsor-img img {
+        width: 165px;
+    }
+
+    .footer-description {
+        padding: 10px 20px;
+    }
+
+    .features2 {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    .f2-img{
+        width: 100%;
+    }
+
+    .ten-years {
+        bottom: -80px;
+        left: 105px;
+    }
+
+
 }
 
 /* mobile_devices_end */
@@ -282,13 +449,29 @@ nav li a {
         margin-left: 30px;
         margin-right: 30px;
     }
+
     .fact-card-conteinar {
-        flex-direction: column;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        column-gap: 5px;
     }
 
     .fact-card-conteinar .card {
         /* padding: 30px 30px; */
         margin-top: 10px;
+    }
+
+    .footer-description {
+        padding: 38px 20px;
+    }
+    .features2 {
+        flex-direction: column;
+        padding: 20px;
+        margin-left: 
+    }
+
+    .f2-img{
+        width: 100%;
     }
 }
 
