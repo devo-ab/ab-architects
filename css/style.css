@@ -437,11 +437,12 @@ footer {
 
   .ten-years {
     position: absolute;
-    bottom: -50px;      
+    bottom: 0px;      
     left: 50%;          
     transform: translateX(-50%);
     width: 280px;        
     padding: 30px 10px;  
     overflow: hidden;    
   }
+
 }
