@@ -205,19 +205,20 @@ nav li a {
 }
 
 .ten-years {
-  border-radius: 8px;
-  background: #FF900E;
-  width: 310px;
-  padding: 45px 1px;
   position: absolute;
-  bottom: -75px;
-  left: -90px;
+  bottom: 20px;
+  left: 20px;
+  background: #FF900E;
+  padding: 20px 10px;
+  width: 250px;
+  border-radius: 8px;
   text-align: center;
+  overflow: hidden; /* Hides any internal scroll */
 }
 
 .ten-years h2 {
   color: #FFF;
-  font-size: 4rem;
+  font-size: 2rem;
   font-weight: 700;
   line-height: 70px;
 }
@@ -380,14 +381,18 @@ footer {
   }
 
   .ten-years {
-    bottom: -80px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 80%;
+    position: static;         
+    margin: 20px auto 0;     
+    width: 90%;              
+    max-width: 300px;        
+    padding: 20px 10px;     
+    left: auto;              
+    bottom: auto;            
+    overflow: hidden;        
   }
 }
 
-@media screen and (min-width: 576px) and (max-width: 960px) {
+@media screen and (min-width: 577px) and (max-width: 960px) {
   header {
     padding: 50px;
   }
@@ -431,7 +436,12 @@ footer {
   }
 
   .ten-years {
-    left: 50%;
+    position: absolute;
+    bottom: -50px;      
+    left: 50%;          
     transform: translateX(-50%);
+    width: 280px;        
+    padding: 30px 10px;  
+    overflow: hidden;    
   }
 }
