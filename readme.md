@@ -19,11 +19,11 @@
 
 ## 🛠️ Tech Stack
 
-| Technology | Role                     |
-|------------|--------------------------|
-| HTML5      | Structure & content      |
-| CSS3       | Styling & responsiveness |
-| GitHub Pages | Hosting & deployment   |
+| Technology   | Role                     |
+| ------------ | ------------------------ |
+| HTML5        | Structure & content      |
+| CSS3         | Styling & responsiveness |
+| GitHub Pages | Hosting & deployment     |
 
 ---
 
@@ -31,13 +31,15 @@
 
 ```
 ab-architects/
-├── css/                   # Main stylesheet (style.css)
-├── favicon/               # Favicon files
-├── icons/                 # Icon assets
-├── images/                # Project and section images
-├── sponsors/              # Sponsor logos/images
-├── index.html             # Main landing page
-└── README.md              # Project documentation
+├── assets/
+│   ├── favicon/            # Favicon files
+│   ├── icons/              # Icon assets
+│   ├── images/             # Project and section images
+│   ├── sponsors/           # Sponsor logos and media
+├── css/                    # Main stylesheet (style.css)
+├── preview/                # Screenshots for README.md
+├── index.html              # Main landing page
+└── README.md               # Project documentation
 ```
 
 ---
@@ -45,13 +47,16 @@ ab-architects/
 ## 📸 Screenshots
 
 ### 🖼️ Hero Section
-![Hero](images/hero.png)
+
+![Hero](./preview/hero.png)
 
 ### 🖼️ Team Showcase
-![Team](images/team-preview.png)
+
+![Team](./preview/team-preview.png)
 
 ### 🖼️ Preview
-![Preview](images/preview.png)
+
+![Preview](./preview/preview.png)
 
 ---
 
@@ -62,6 +67,16 @@ ab-architects/
    git clone https://github.com/devo-ab/ab-architects.git
    cd bangladesh
    ```
+
+🌐 Deployment
+This project is deployed using GitHub Pages.
+
+Deploy in 3 steps:
+Push the project to GitHub
+
+Go to Settings > Pages
+
+Select branch: main and folder: / (root) — then click Save
 
 # 👤 Author
 
