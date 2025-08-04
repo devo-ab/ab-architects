@@ -44,7 +44,7 @@ nav {
   color: #131313;
 }
 
-nav > ul {
+nav>ul {
   display: flex;
   flex-wrap: wrap;
   gap: 30px;
@@ -213,7 +213,8 @@ nav li a {
   width: 250px;
   border-radius: 8px;
   text-align: center;
-  overflow: hidden; /* Hides any internal scroll */
+  overflow: hidden;
+  /* Hides any internal scroll */
 }
 
 .ten-years h2 {
@@ -381,18 +382,18 @@ footer {
   }
 
   .ten-years {
-    position: static;         
-    margin: 20px auto 0;     
-    width: 90%;              
-    max-width: 300px;        
-    padding: 20px 10px;     
-    left: auto;              
-    bottom: auto;            
-    overflow: hidden;        
+    position: static;
+    margin: 20px auto 0;
+    width: 90%;
+    max-width: 300px;
+    padding: 20px 10px;
+    left: auto;
+    bottom: auto;
+    overflow: hidden;
   }
 }
 
-@media screen and (min-width: 577px) and (max-width: 960px) {
+@media screen and (min-width: 577px) and (max-width: 992px) {
   header {
     padding: 50px;
   }
@@ -437,12 +438,12 @@ footer {
 
   .ten-years {
     position: absolute;
-    bottom: 30px;      
-    left: 50%;          
+    bottom: 30px;
+    left: 50%;
     transform: translateX(-50%);
-    width: 280px;        
-    padding: 30px 10px;  
-    overflow: hidden;    
+    width: 280px;
+    padding: 30px 10px;
+    overflow: hidden;
   }
 
 }

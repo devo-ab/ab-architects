@@ -65,7 +65,7 @@ ab-architects/
 1. **Clone the repository**
    ```bash
    git clone https://github.com/devo-ab/ab-architects.git
-   cd bangladesh
+   cd ab-architects
    ```
 
 🌐 Deployment
